@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    font-family: Afacad Flux;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);background: linear-gradient(90deg, #C7C5F4, #776BCC);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.todo {
+    border: 1px solid black;
+    max-width: 600px;
+    margin: auto;
+    background-color: #494c71;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    color: #fff;
+    padding-left: 10px;
+}
+.header i {
+  margin-right: 5px;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.addbtn {
+    padding: 10px;
+    margin-left: 2px;
+    background-color: #8f8fb7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addbtn:hover {
+    background-color: #fff;
+    color: gray;
+    border: 1px solid black;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left:  -33px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+li.completed {
+    color: gray;
+}
+
+li button {
+    
+    margin-left: 5px;
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
